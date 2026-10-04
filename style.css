@@ -1,0 +1,75 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.search-box{
+text-align:center;
+margin:20px;
+}
+
+.search-box input{
+width:300px;
+padding:10px;
+}
+
+.search-box button{
+padding:10px 20px;
+background:red;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.gym-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.card{
+background:white;
+width:300px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.card a{
+text-decoration:none;
+background:green;
+color:white;
+padding:8px 15px;
+display:inline-block;
+margin-top:10px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+.call-btn{
+    background:#ff5722;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.call-btn:hover{
+    background:#e64a19;
+}
